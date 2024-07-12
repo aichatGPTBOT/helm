@@ -1,3 +1,4 @@
+
 /*
 Copyright The Helm Authors.
 
@@ -116,6 +117,10 @@ func TestInstall(t *testing.T) {
 		},
 		// Install, with wait-for-jobs
 		{
+
+
+
+			
 			name:   "install with wait-for-jobs",
 			cmd:    "install apollo testdata/testcharts/empty --wait --wait-for-jobs",
 			golden: "output/install-with-wait-for-jobs.txt",
